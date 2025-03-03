@@ -33,7 +33,6 @@ public class StudentList extends JFrame {
             add(scrollPane, BorderLayout.CENTER);
         } catch (SQLException ex) {
             ex.printStackTrace();
-            JOptionPane.showMessageDialog(this, "Database error: " + ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE); // User friendly error message.
         }
         setVisible(true);
     }
